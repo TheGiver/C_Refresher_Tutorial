@@ -1,0 +1,14 @@
+Lecture Title: Hello World
+--------------------------
+<stdio.h>:
+In order to use input/output functions, you will need to include this header file 
+into your c program. 
+
+You can always take a look at the documentation for this header file to know what 
+functions are available for you to use. 
+--------------------------
+Return of main function:
+The main function in C should always return 0 which indicates the success of the program. 
+If the function returns anything other than 0, this indicates that something wrong has taken 
+place and the file was not able to fully execute. 
+--------------------------
