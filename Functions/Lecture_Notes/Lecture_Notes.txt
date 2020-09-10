@@ -1,0 +1,18 @@
+Lecture Title: Functions
+------------------------
+Characteristics of functions:
+Functions can either be declared as void which indicates that they do not return anything. Or, 
+they could declared in a way such that they do return a value. But, keep in mind that a function 
+can only return one value. 
+------------------------
+Arguments:
+Function arguments in C are pass by value. This suggests that if you do pass arguments to a function, 
+then the original value of that arguments will not be affected outside the scope of that function. 
+
+In the scenario where you do want to affect the arguments' original values, then you would have to make 
+use of what is known as pointers. 
+------------------------
+Definition:
+In C, you have to define/declare the function before using it. You can write the body of that function later 
+on, but the function signature must be declared before usage. 
+------------------------
