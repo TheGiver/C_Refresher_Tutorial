@@ -1,0 +1,37 @@
+Lecture Title: Strings
+----------------------
+Reminder:
+As we have said before, in C, we treat strings as an array of characters. 
+----------------------
+Defining Strings:
+There exists multiple ways to define a string in C and those are:
+(a) Defining a string for read only purposes:
+    char * <var_name> = "abcd";
+
+(b) Defining a string for read and manipulation purposes:
+    char <var_name>[] = "abcd";
+    If this method was used, then the program would automatically calculate the length of 
+    the string and would automatically assign the appropriate amount of characters.
+
+(c) Defining a string with a fixed number of characters:
+    char <var_name>[5] = "abcd";
+    If this method was chosen, then please make sure to specify x+1 characters where x is the
+    total number of characters in the string we are trying to create. The reason why we need that 
+    additional character is because strings are terminated with a special symbol that is needed to 
+    inform the program that the end of the string has been reached. 
+----------------------
+String Length:
+To obtain the length of a string then we can use the strlen(). 
+----------------------
+String Comparison:
+To compare two strings, use the stncmp() and not strcmp() as the former is safer than the latter. 
+
+The reason why strncmp() is safer is due to the fact that you need to manually specify the total no. 
+of characters to be compared. Hence, you avoid building a program that might, in the scenario where the 
+inputs are not properly terminated with the end of string symbol, read beyond the inputs' length and the 
+memory span and cause the program to crash. 
+----------------------
+String Concatenation:
+The usage guide is as follows:
+                strncat(dest, src, characters to read);
+----------------------
