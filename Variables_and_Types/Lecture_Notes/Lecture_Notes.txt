@@ -1,0 +1,43 @@
+Lecture Title: Variables & Types in C
+-------------------------------------
+List of Data Types in C:
+(a) Integers:
+    Whole numbers that could be either positive or negative in value. 
+    Defined using char, int, short, long, long long 
+
+(b) Unsigned Integers:
+    Whole numbers that are only positive in value. 
+    Defined using unsigned {char | int | short | long| long long}
+
+(c) Floating Point Numbers:
+    Those are real numbers. 
+    Defined using float or double. 
+
+(d) Structures:
+    To be discussed later. 
+-------------------------------------
+Note(s):
+- One thing you will have to keep in mind is that strings in C are treated as an array 
+  of characters. We will talk about this later as we progress in the tutorial. 
+
+- The size (in bits) for each of the data types differs and some of them are dependent on 
+  the specifications of the machine being used. For instance, we know that a char is 1 byte 
+  in size, and that is usually standardized across all programming languages and machines. On 
+  the other hand, an int is typically dependent on the machine being used and it could be either 
+  32-bits or 64-bits in size. We typically refer to the size of an int variable as a 'word'. 
+-------------------------------------
+Definition vs Initialization:
+In C, it is important to know the difference between defining a variable and initiliazing it. 
+Defining a variable involves specifying the type of that variable but not neccessary that value 
+that the variable is going to represent. On the other hand, initialization is the process of assigning 
+a value to a variable. 
+
+In C, if you define but do not initilize that variable, the machine will allocate a space in memory for 
+that variable but we cannot guarantee what type of data is stored in that space. The data in that space 
+will only get overwritten upon initialization. 
+-------------------------------------
+Boolean:
+C does not have the data type 'boolean' as is the case in other languages such as Java and Python. 
+You will have to manually define/create this data type if you would like to use this concept in your 
+programs. You can take a look online on how to do so. 
+-------------------------------------
