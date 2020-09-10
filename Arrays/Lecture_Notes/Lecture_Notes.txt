@@ -1,0 +1,22 @@
+Lecture Title: Arrays
+---------------------
+Defining arrays:
+An array is a specific data structure that can hold multiple values of the 
+same type and store them in a contigious block of memory and each data can 
+be accessed via an index. 
+---------------------
+Defining an array:
+If you would like to define an array, then follow the following usage guide:
+                    <data_type> <var_name>[size];
+---------------------
+Default content of an array:
+* If an array has been declared at the file score (outside any function), or has 
+  been declared as 'static', then the default value of the array indices is zero. 
+
+* If an array has been declared in the scope of a function and has not been declared 
+  as static, then the default value is essentially garbage values (unexpected and cannot
+  predict it).
+
+* If we manually initialise the array, then the content of the array will be whatever values 
+  we have used during the initialisation process. 
+---------------------
