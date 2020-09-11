@@ -1,0 +1,22 @@
+Lecture Title: Pointers
+-----------------------
+What are pointers?
+Pointers are essentially variables that store the memory address of an object rather than 
+the actual value that the variable represents. 
+-----------------------
+Uses of pointers:
+Pointers have very important usages in c, some include:
+(a) Strings
+(b) Building complex data structures
+(c) Dynamic memory allocation
+(d) Sending function arguments by reference 
+(e) Pointing to functions 
+-----------------------
+Dereferencing pointers:
+Dereferencing is the act of extracting the value that the pointer is pointing at. 
+Symbol for dereferencing: *
+-----------------------
+Obtaining memory address of objects:
+To obtain the memory address where an object is located, you will need to use the 
+following symbol: &
+-----------------------
