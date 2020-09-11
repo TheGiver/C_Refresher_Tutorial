@@ -1,0 +1,14 @@
+Lecture Title: Static Keyword
+-----------------------------
+What is this keyword?
+This keyword is associated with both functions and variables in order to change 
+the scope/accessibility of functions/variables. 
+-----------------------------
+Static in Variables:
+Variables are local to the scope in which they are defined in. 
+Static changes this scope such that the variables' scope is now the whole file. 
+-----------------------------
+Static in Functions:
+By default, functions are global in C. 
+Static limits the scope to the file in which they have been defined in. 
+-----------------------------
