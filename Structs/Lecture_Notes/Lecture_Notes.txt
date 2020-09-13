@@ -1,0 +1,34 @@
+Lecture Title: Structs
+----------------------
+Why structs?
+Struct is a data structure in C that allows you to store & group data of multiple
+types unlike arrays which can only store data of a specific type. 
+
+This small feature of structs is vital to the creation of complex data structures 
+such as linked lists, binary trees, etc. 
+----------------------
+Declaring structs:
+In C, structs are declared in the following manner:
+                    struct struct_tag {
+                        /* Data */
+                    } [one or more struct variables];
+We can think of structs in the same way we think of classes in Java and other object
+oriented modules. Structs usually represent data that are somehow related to each other. 
+----------------------
+Typedef:
+Typedef is a keyword available in C that allows you to define your own type and use that 
+type within the program. 
+
+You can use this keyword when declaring a struct in the following way:
+                typedef struct {
+                    /* Data */
+                } struct_tag;
+
+Then, whenever you would like to initialize a struct you can do so like this:
+                    struct_tag variable_name;
+----------------------
+Accessing struct's data:
+In order to access the data of a struct and ammend the value of the different data types
+then you will have to make use of the dot (.). All usage can be found online or in the src 
+directory created for this lecture. 
+---------------------- 
