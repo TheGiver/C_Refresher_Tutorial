@@ -1,0 +1,21 @@
+Lecture Title: Functions Arguments by Reference
+-----------------------------------------------
+Technique:
+The technique used in order to pass function arguments by reference is to make 
+use of pointers. 
+-----------------------------------------------
+Aim:
+The aim of passing function arguments by reference is to ammend the original value 
+of the argument instead of the copy. 
+-----------------------------------------------
+Passing structs by reference:
+As we have mentioned before, everything in c is pass by value and the same goes for 
+structs. To pass a struct by reference, you will need to make use of pointers as well. 
+
+The pointer will be of the same type as the struct. 
+-----------------------------------------------
+Dereferencing pointers to structs:
+There exists two methods of dereferencing and those are:
+(a) (*struct).object 
+(b) struct -> object 
+-----------------------------------------------
